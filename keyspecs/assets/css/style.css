@@ -1,0 +1,481 @@
+.crypto-wp{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Reset */
+.crypto-wp h3{
+    margin: 0px;
+}
+
+.cwp-container{
+    
+}
+
+.cwp-price{
+    font-weight: bold;
+}
+
+.crypto_link{
+    color: #005bbc;
+    font-weight: bold;
+}
+
+.cwp-param{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cwp-param label{
+    font-size: 11px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 11px;
+}
+
+.cwp-direction{
+    width: 100px;
+    text-align: center;
+    float: right;
+    margin-top: -5px;
+    margin-left:20px;
+    padding-left: 20px;
+}
+
+.cwp-direction-symbol{
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+
+.cwp-direction-value{
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+
+.cwp-color-green{
+    color: green;
+}
+
+.cwp-color-red{
+    color: red;
+}
+
+.cwp-color-gray{
+    color: gray;
+}
+
+.cwp-icon{
+    height: 16px;
+    margin-right: 10px;
+    margin-top: -2px;
+    display: inline-block;
+}
+
+.cwp-header .cwp-head-label{
+    font-size: 12px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.cwp-graphics{
+    height: 400px;
+    margin-left: -1px;
+    margin-top: -1px;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
+
+.cwp-pull-right{
+    float: right;
+}
+
+.cwp-margin-center{
+    margin-top: 10px;
+}
+
+.cwp-coinname{
+    float: left;
+    margin-right: 20px;
+}
+
+.cwp-header{
+    height: 70px;
+}
+
+#cwp-name{
+    margin-right: 5px;
+}
+
+.cwp-graphic-title h4{
+    margin-bottom: 0px !important;
+    font-size: 13px !important;
+}
+
+/* Theme001 - Light */
+.crypto-wp.cwp-theme001{
+    background: #fff;
+}
+
+.cwp-theme001 .cwp-bottom-border{
+    padding-bottom: 15px;
+    border-bottom: solid 1px #ccc;
+}
+
+.cwp-theme001 .cwp-padding{
+    padding: 20px 5px;
+}
+
+.cwp-theme001 h3 .cwp-price{
+    float: right;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+.cwp-theme001 .cwp-value{
+    background: #efefef;
+    border-radius: 2px;
+    border: solid 1px #ccc;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.cwp-theme001 .cwp-direction{
+    border-left: solid 1px #ccc;
+}
+
+.cwp-theme001 .cwp-header .cwp-head-label{
+    background: #ccc;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.cwp-theme001 .cwp-button-primary{
+    background: blue;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.cwp-theme001 .cwp-padding{
+    padding: 20px;
+}
+
+/* Theme002 - Light */
+.crypto-wp.cwp-theme002{
+    background: #272727;
+    border:solid 1px #272727;
+    color: #fff;
+}
+
+.cwp-theme002 .cwp-bottom-border{
+    padding-bottom: 15px;
+    border-bottom: solid 1px #3a3a3a;
+}
+
+.cwp-theme002 .cwp-padding{
+    padding: 20px 5px;
+}
+
+.cwp-theme002 h3 .cwp-price{
+    float: right;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+.cwp-theme002 .cwp-value{
+    background: #484848;
+    border-radius: 2px;
+    border: solid 1px #5d5d5d;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.cwp-theme002 .cwp-direction{
+    border-left: solid 1px #3a3a3a;
+}
+
+.cwp-theme002 .cwp-header .cwp-head-label{
+    background: #444;
+    color: #c2c2c2;
+    padding: 2px 8px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.cwp-theme002 .cwp-button-primary{
+    background: blue;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.cwp-theme002 .cwp-color-green{
+    color: #4bff00;
+    text-shadow: 0px 1px 1px #000;
+}
+
+.cwp-theme002 .cwp-color-red{
+    color: #ff0b0b;
+    text-shadow: 0px 1px 1px #000;
+}
+
+.cwp-theme002 .cwp-color-gray{
+    color: gray;
+}
+
+.cwp-theme002 .cwp-padding{
+    padding: 20px;
+}
+
+/* Theme003 - Border Style */
+.cwp-theme003{
+    border:solid 1px #ccc;
+    border-radius: 5px;
+}
+
+/* Theme004 - Dark Blue */
+.crypto-wp.cwp-theme004{
+    background: #131722;
+    border: solid 1px #131722;
+    color: #fff;
+}
+
+.cwp-theme004 .cwp-bottom-border{
+    padding-bottom: 15px;
+    border-bottom: solid 1px #363c4e;
+}
+
+.cwp-theme004 .cwp-padding{
+    padding: 20px 5px;
+}
+
+.cwp-theme004 h3 .cwp-price{
+    float: right;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+.cwp-theme004 .cwp-value{
+    background: #303845;
+    border-radius: 2px;
+    border: solid 1px #363c4e;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.cwp-theme004 .cwp-direction{
+    border-left: solid 1px #3a3a3a;
+}
+
+.cwp-theme004 .cwp-header .cwp-head-label{
+    background: #444;
+    color: #c2c2c2;
+    padding: 2px 8px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.cwp-theme004 .cwp-button-primary{
+    background: blue;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.cwp-theme004 .cwp-color-green{
+    color: #4bff00;
+    text-shadow: 0px 1px 1px #000;
+}
+
+.cwp-theme004 .cwp-color-red{
+    color: #ff0b0b;
+    text-shadow: 0px 1px 1px #000;
+}
+
+.cwp-theme004 .cwp-color-gray{
+    color: gray;
+}
+
+.cwp-theme004 .cwp-padding{
+    padding: 20px;
+}
+
+.crypto_table{
+    width: 100%;
+}
+
+.crypto_table_container{
+    border:solid 1px #f5f5f5;
+    box-shadow: 0px 0px 20px #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.crypto_table tr, .crypto_table td, .crypto_table th{
+    border:none;
+    transition: all 0.5;
+}
+
+.crypto_table th, .crypto_table td{
+    border-bottom: solid 1px #ddd;
+}
+
+.crypto_table td:first-child{
+    border-right: solid 1px #ddd;
+    text-align: center;
+}
+
+.crypto_right{
+    text-align: right;
+    padding-left: 10px;
+}
+
+.crypto_minigraph{
+    border:solid 1px #ddd;
+}
+
+.crypto_table tr{
+    cursor: pointer;
+}
+
+.crypto_table tr:hover{
+    background: #f5f5f5;
+}
+
+.crypto_form{
+    padding: 20px;
+    background: #f7f7f7;
+    clear: both;
+    height: 90px;
+}
+
+.crypto_table th small{
+    background: #888;
+    color: #fff;
+    border-radius: 15px;
+    padding: 2px 5px;
+    font-size: 11px;
+}
+
+.crypto_form span{
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+}
+
+.crypto_form span.pull-right{
+    float: right;
+    margin-left: 20px;
+}
+
+.crypto_form span label{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+.crypto_form span input, .crypto_form span select{
+    height: 29px;
+    padding: 5px 10px;
+    margin: 0px;
+    /* margin-top: 13px; */
+    font-size: 13px;
+    box-sizing: border-box !important;
+}
+
+.crypto-margin-left{
+    margin-left: 10px;
+}
+
+.crypto_pagination a{
+    background: #fff;
+    border:solid 1px #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+@-webkit-keyframes yellow-fade {   
+   0% {background: #ededed;}
+   100% {background: none;}
+}
+
+@keyframes yellow-fade {
+   0% {background: #ededed;}
+   100% {background: none;}
+}
+
+.highlight {
+   -webkit-animation: yellow-fade 2s ease-in 1;
+   animation: yellow-fade 2s ease-in 1;
+}
+
+#cryptowp_alarm{
+
+}
+
+#cryptowp_alarm label{
+    font-weight: bold;
+    font-size: 12px;
+    display: block;
+}
+
+#cryptowp_alarm input, #cryptowp_alarm select{
+    border-radius: 2px;
+    border:solid 1px #ddd;
+    box-shadow: inset 0px 1px 2px #ddd;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#cryptowp_alarm button{
+    margin: 0px;
+}
+
+.cryptowp_button_remove{
+    padding: 2px;
+    background: #b9b9b9;
+    width: 24px;
+    height: 24px;
+}
+
+.cryptowp_seperator{
+    clear: both;
+    margin-top: 10px;
+}
+
+.cwp-small{
+    font-size: 12px;
+    color: #949494;
+    margin-top: 7px;
+}
+
+.cwp-loading{
+    margin-right: 10px;
+}
+
+.sort-icon{
+    margin-left: 7px;
+}
+
+@media only screen and (max-width: 500px) {
+    .crypto_table_wrapper{
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    .crypto_mobile_price_only .crypto_mobile_hide{
+        display: none;
+    }
+}
